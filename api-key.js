@@ -1,1 +1,0 @@
-const UNSPLASH_ACCESS_KEY = 'mOAr7siPtoroHsooCRArg0NoG6ghDSmwyrS6q10amnc';
