@@ -1,10 +1,14 @@
 // create constants
 const page = document.querySelector('.page');
+page.classList.remove('default_background');
 const backgroundImage = new Image();
 const isInLocalStorage = localStorage.getItem('imgUrl');
 const dateInLocalStorage = localStorage.getItem('date');
 
-backgroundImage.classList.add('preload');
+// create status container
+const statusContainer = document.createElement('div');
+statusContainer.classList.add('status', 'hidden');
+page.appendChild(statusContainer);
 
 // check date
 let today = new Date();
@@ -13,5 +17,4 @@ const mm = String(today.getMonth() + 1).padStart(2, '0');
 const yyyy = today.getFullYear();
 today = `${dd}/${mm}/${yyyy}`;
 
-const wordOfTheDay = getWordOfTheDay();
-getImageOfTheDay(wordOfTheDay);
+getImageOfTheDay();
