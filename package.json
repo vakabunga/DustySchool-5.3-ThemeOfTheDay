@@ -1,12 +1,12 @@
 {
   "name": "dustyschool-5.3-themeoftheday",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "API homework. Task 3",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && cp -Ra ./src/. dist && babel src -d dist",
     "lint": "eslint ./src && stylelint './src/style/*.css'",
-    "lint:fix": "eslint ./src --fix && stylelint './src/style/*.cs' --fix",
+    "lint:fix": "eslint ./src --fix && stylelint './src/style/*.css' --fix",
     "start": "http-server ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

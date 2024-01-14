@@ -20,6 +20,7 @@
         "page": true,
         "today": true,
         "UNSPLASH_ACCESS_KEY": true,
-        "WORDNIK_API_KEY": true
+        "WORDNIK_API_KEY": true,
+        "statusContainer": true
     }
 }
