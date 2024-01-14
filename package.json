@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rm -rf dist && cp -Ra ./src/. dist && babel src -d dist",
     "lint": "eslint ./src && stylelint './src/style/*.css'",
-    "lint:fix": "eslint ./src --fix && stylelint './src/style/*.cs' --fix",
+    "lint:fix": "eslint ./src --fix && stylelint './src/style/*.css' --fix",
     "start": "http-server ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
