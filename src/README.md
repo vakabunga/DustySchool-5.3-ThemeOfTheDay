@@ -28,4 +28,4 @@ API homework. Task 3
 
 ### GitPages
 
-https://vakabunga.github.io/DustySchool-5.3-ThemeOfTheDay/
+https://vakabunga.github.io/DustySchool-5.3-ThemeOfTheDay/src
