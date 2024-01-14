@@ -11,6 +11,21 @@ API homework. Task 3
 
 **Усложнение 2:** если вы просто разместите картинку на фон страницы, она будет грзится долго и некрасиво. Подумайте, как сначала загрузить картинку, а затем красиво поместить ее на фон страницы.
 
+## NOTE
+
+1. Get API key at https://www.wordnik.com/word-of-the-day
+2. Save API key to `localStorage.setItem('wordApiKey', 'your_api_secret_key')`
+3. Get API key at https://unsplash.com/developers
+4. Save API key to `localStorage.setItem('unsplashApiKey', 'your_api_secret_key')`
+5. Don't forget refresh page after set items in `localStorage`
+6. You can now use both the local clone and GitPages
+
+### Usage
+1. `git clone`
+2. `npm install`
+3. `npm run build`
+4. `npm start`
+
 ### GitPages
 
 https://vakabunga.github.io/DustySchool-5.3-ThemeOfTheDay/
