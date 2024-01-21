@@ -26,7 +26,7 @@ API homework. Task 3
 3. `npm run build`
 4. `npm start`
 
-If no images were founded by word of the day you will see th message `There are no images finding by the word of the day. Using default background`
+If no images were found for the word of the day you will see the message `There are no images finding by the word of the day. Using default background`
 
 ### GitPages
 
