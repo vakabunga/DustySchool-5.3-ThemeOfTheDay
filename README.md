@@ -30,4 +30,4 @@ If no images were found for the word of the day you will see the message `There 
 
 ### GitPages
 
-https://vakabunga.github.io/DustySchool-5.3-ThemeOfTheDay/src
+https://vakabunga.github.io/DustySchool-5.3-ThemeOfTheDay/dist
